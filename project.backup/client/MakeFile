@@ -1,0 +1,4 @@
+all:
+	g++ mainClient.cpp client.cpp interface.cpp TextureManager.cpp ECS.cpp vector2D.cpp  -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf -o client.exe
+clean:
+	rm -f *~client-exe
